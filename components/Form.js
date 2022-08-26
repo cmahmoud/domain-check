@@ -35,8 +35,7 @@ export default function Form() {
 			if(!isValid) return "Domain name is not valid."
 			return true
 		},
-	}
-	const validateDomain = 
+	} 
 	return (
 		<div className="mb-4">
 			<p className="animate-bounce text-xs text-red-500 font-medium mb-1 pl-2">{errors.domain?.message}</p>
