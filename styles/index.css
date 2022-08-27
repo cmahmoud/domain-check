@@ -37,6 +37,6 @@
         font-family: 'IBM Plex Sans';
     }
     body{
-        @apply bg-zinc-900
+        @apply bg-zinc-900;
     }
 }
