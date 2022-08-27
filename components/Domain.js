@@ -16,7 +16,7 @@ export default function Domain({ domain, exists }) {
 			</h2>
 			<span
 				className={clsx(
-					exists ? "bg-amber-900" : "bg-lime-600",
+					exists ? "bg-rose-800" : "bg-green-800",
 					"p-0.5 rounded-full"
 				)}
 			>
