@@ -3,9 +3,10 @@ import Head from "next/head";
 export default function Seo() {
 	return (
 		<Head>
-			<meta charset="UTF-8" />
+			<meta charSet="UTF-8" />
 			<meta name="language" content="EN" />
 			<meta name="theme-color" content="#18181B"/>
+			<meta name="google-site-verification" content="l6n-HRCEV5jy0z4F-ckQDj6bNns0O5RmeVICDnCbEzE" />
 			<link rel="icon" type="image/png" sizes="16x16" href="/favicon.png"/>
 			<meta name="copyright" content="Domain Name Checker Tool" />
 			<meta name="owner" content="Mahmoud Ibrahiam" />

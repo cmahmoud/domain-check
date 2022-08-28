@@ -4,6 +4,7 @@ import Header from "@ui/Header";
 import DomainList from "@ui/DomainList";
 import SocialBar from "@ui/SocialBar";
 import Seo from "@ui/Seo"
+import TextForSeo from "@ui/TextForSeo"
 
 export default function Home() {
 	return (
@@ -13,6 +14,7 @@ export default function Home() {
 				<Header />
 				<Form />
 				<DomainList />
+				<TextForSeo/>
 			</div>
 			<SocialBar />
 		</>
