@@ -5,6 +5,8 @@ export default function Seo() {
 		<Head>
 			<meta charset="UTF-8" />
 			<meta name="language" content="EN" />
+			<meta name="theme-color" content="#18181B"/>
+			<link rel="icon" type="image/png" sizes="16x16" href="/favicon.png"/>
 			<meta name="copyright" content="Domain Name Checker Tool" />
 			<meta name="owner" content="Mahmoud Ibrahiam" />
 			<meta name="reply-to" content="cmahmoudv@gmail.com" />
