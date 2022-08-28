@@ -10,12 +10,12 @@ export default function Home() {
 	return (
 		<>
 			<Seo />
-			<div className="text-zinc-100 conatiner mx-auto px-4 md:px-32">
+			<main className="text-zinc-100 conatiner mx-auto px-4 md:px-32">
 				<Header />
 				<Form />
 				<DomainList />
 				<TextForSeo/>
-			</div>
+			</main>
 			<SocialBar />
 		</>
 	);
