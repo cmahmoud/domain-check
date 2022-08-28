@@ -7,7 +7,7 @@ export default function DomainList() {
 	const domains = useSelector((state) => state.domainList);
 	const loading = useSelector((state) => state.loading);
 	return (
-		<div className="list mb-3">
+		<div className="list mb-16 md:mb-4">
 			{loading ? (
 				<Skeleton />
 			) : (
