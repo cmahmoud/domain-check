@@ -1,9 +1,9 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import Domain from "@ui/Domain";
-import Skeleton from "@ui/Skeleton";
+import Card from "@ui/domain/card";
+import Skeleton from "@ui/domain/skeleton";
 
-export default function DomainList() {
+export default function List() {
 	const domains = useSelector((state) => state.domainList);
 	const loading = useSelector((state) => state.loading);
 	return (
@@ -12,7 +12,7 @@ export default function DomainList() {
 				<Skeleton />
 			) : (
 				domains?.map(({ domain, exists }, idx) => {
-					return <Domain key={idx} domain={domain} exists={exists} />;
+					return <Card key={idx} domain={domain} exists={exists} />;
 				})
 			)}
 		</div>

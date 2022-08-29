@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-export default function SocialBarIcon({ icon }) {
+export default function Icon({ icon }) {
 	return (
 		<div style={{ background: icon.color }} className="flex items-center justify-center w-full basis-1/6 md:basis-0 p-2 cursor-pointer">
 			<Link href={icon.url}>

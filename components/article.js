@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 
-export default function TextForSeo() {
+export default function Article() {
 	return (
 		<article className="text-zinc-100/75 mb-16 md:mb-4">
 			<div className="flex flex-col gap-3 p-3 bg-zinc-800 mb-2 rounded-lg mb-3">

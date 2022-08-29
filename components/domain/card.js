@@ -3,7 +3,7 @@ import Xmark from "@ui/icons/Xmark";
 import Check from "@ui/icons/Check";
 import clsx from "clsx";
 
-export default function Domain({ domain, exists }) {
+export default function Card({ domain, exists }) {
 	return (
 		<div className="bg-zinc-800 mb-2 p-2.5 rounded-lg flex flex-row items-center justify-between">
 			<h2

@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-export default function Seo() {
+export default function Meta() {
 	return (
 		<Head>
 			<meta charSet="UTF-8" />
