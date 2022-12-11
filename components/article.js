@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Article() {
     return (
-        <article className="mb-16 md:mb-4">
+        <article className="mb-4">
             <div className="flex flex-col gap-3 p-4 bg-zinc-800 rounded-lg mb-3">
                 <h2 className="text-center text-2xl mb-1 text-white font-bold">
                     What is a domain name?
